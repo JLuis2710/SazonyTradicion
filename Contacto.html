@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Sazón y Tradición</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: 'Bell MT', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-image: url('https://wallpapers.com/images/hd/pastel-red-n1uzm32wux4ao6a6.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    header {
+        background-color: #e74c3c;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 200px;
+        font-size: 1.5em;
+        font-family: 'Baskerville Old Face', sans-serif;
+        background-color: #cb4335;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        box-shadow: -4px 0 8px rgba(0, 0, 0, 0.5);
+    }
+
+    nav a {
+        color: #fff;
+        margin: 10px 0;
+        text-decoration: none;
+        font-size: 1.1em;
+        padding: 10px 20px;
+        transition: transform 0.3s, background-color 0.3s;
+        border-radius: 8px;
+    }
+
+    nav a:hover {
+        background-color: #943126;
+        color: #fff;
+        transform: scale(1.1);
+    }
+
+    .content {
+        flex: 1;
+        padding-top: 120px; 
+        padding-left: 40px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 220px;
+        color: #fff;
+        font-size: 1.6em;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        transition: transform 0.3s;
+    }
+
+    .icon:hover {
+        transform: scale(1.5);
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        margin: 15px 0;
+    }
+
+    footer {
+        font-weight: bold;
+        color: #fff;
+        background-color: #b03a2e;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    footer p {
+        margin: 0;
+        font-family: 'Baskerville Old Face', sans-serif;
+    }
+</style>
+<body>
+
+<header>
+    <h1>Contacto</h1>
+</header>
+
+<nav>
+    <a href="index.html"">Inicio</a>
+
+</nav>
+
+<div class="content">
+    <h2>¡Nos encantaría escucharte!</h2>
+    <p>En Sazón y Tradición, queremos estar cerca de ti. Si tienes consultas, sugerencias o deseas realizar pedidos especiales, aquí tienes cómo contactarnos:</p>
+    <ul>
+        <li>
+            <img src="https://via.placeholder.com/30/FF0000/FFFFFF?text=T" alt="Teléfono" class="icon">
+            Teléfono: +504 9456-7890
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/30/00FF00/FFFFFF?text=E" alt="Email" class="icon">
+            Email: contacto@sazonytradicion504.com
+        </li>
+    </ul>
+    <p>Además, estamos activos en nuestras redes sociales para compartir contigo recetas, promociones y mucho más:</p>
+    <ul>
+        <li>
+            <img src="https://via.placeholder.com/30/0000FF/FFFFFF?text=F" alt="Facebook" class="icon">
+            <a href="https://facebook.com/sazonytradicion" style="color: #fff; text-decoration: none;">Facebook: /sazonytradicion</a>
+        </li>
+        <li>
+            <img src="https://via.placeholder.com/30/FF00FF/FFFFFF?text=I" alt="Instagram" class="icon">
+            <a href="https://instagram.com/sazonytradicion" style="color: #fff; text-decoration: none;">Instagram: @sazonytradicion</a>
+        </li>
+    </ul>
+    <p>Visítanos en nuestra dirección física:</p>
+    <ul>
+        <li>
+            <img src="https://via.placeholder.com/30/FFFF00/FFFFFF?text=M" alt="Mapa" class="icon">
+            Dirección: Calle Principal #123, Tegucigalpa, Honduras.
+        </li>
+    </ul>
+</div>
+
+<footer>
+    <p>&copy; 2023 Sazón y Tradición. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Sazón y Tradición</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: 'Bell MT', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbqSZUyPKLzLrNM_hhquh7vGUEfOzlYmMItQ&s'); 
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    header {
+        background-color: #28b463;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 200px;
+        font-size: 1.5em;
+        font-family: 'Baskerville Old Face', sans-serif;
+        background-color: #239b56;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        box-shadow: -4px 0 8px rgba(0, 0, 0, 0.5);
+    }
+
+    nav a {
+        color: #fff;
+        margin: 10px 0;
+        text-decoration: none;
+        font-size: 1.1em;
+        padding: 10px 20px;
+        transition: transform 0.3s, background-color 0.3s;
+        border-radius: 8px;
+    }
+
+    nav a:hover {
+        background-color: #186a3b;
+        transform: scale(1.1);
+    }
+
+    .content {
+        flex: 1;
+        padding-top: 150px;
+        padding-left: 50px;
+        margin-right: 220px;
+        color: #fff;
+    }
+
+    .service {
+        margin-bottom: 30px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .service img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        color: #fff;
+        background-color: #1d8348;
+        text-align: center;
+        padding: 10px;
+    }
+
+    footer p {
+        margin: 0;
+        font-family: 'Baskerville Old Face', sans-serif;
+    }
+</style>
+<body>
+
+<header>
+    <h1>Servicios</h1>
+</header>
+
+<nav>
+    <a href="index.html"">Inicio</a>
+</nav>
+
+<div class="content">
+    <div class="service">
+        <h2>Catering para eventos</h2>
+        <img src="https://catering.grupoelescondite.com/wp-content/uploads/2023/06/eventos-verano-con-catering.jpg">
+        <p>Ofrecemos servicios de catering personalizados para bodas, cumpleaños, reuniones corporativas y más. Adaptamos el menú según tus necesidades y preferencias.</p>
+    </div>
+
+    <div class="service">
+        <h2>Entregas a domicilio</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSekMEtXxO3gsWlvEo5nSKiOKaFuBvoYMzJw&s">
+        <p>Disfruta de tus platos favoritos desde la comodidad de tu hogar. Contamos con un servicio de entregas rápido y eficiente en toda la ciudad.</p>
+    </div>
+
+    <div class="service">
+        <h2>Organización de eventos privados</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxYNpXhx7B25it5qNQLSNRvwjPEuadJ_ac5Q&s">
+        <p>¿Planeas un evento especial? Nosotros nos encargamos de la comida, decoración y coordinación para que tú solo te preocupes por disfrutar.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2023 Sazón y Tradición. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Sazón y Tradición</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: Bell MT, sans-serif;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-image: url('https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-68140.jpg?w=360'); 
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    header {
+        background-color: #2e86c1;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .header-icon {
+        position: absolute;
+        top: 10px;
+        left: 10px; 
+        width: 100px; 
+        height: auto;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 10%;
+        font-size: 1.5em;
+        font-family: Baskerville Old Face, sans-serif;
+        background-color: #2874a6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 210px;
+        box-shadow: -4px 0 8px rgba(0, 0, 0, 1.5);
+    }
+
+    nav a {
+        color: #fff;
+        margin: 10px 0;
+        text-decoration: none;
+        font-size: 1.1em;
+        padding: 10px 20px;
+        transition: transform 0.3s, background-color 0.3s;
+        border-radius: 8px;
+    }
+
+    nav a:hover {
+        background-color: #1b4f72;
+        color: #fff;
+        transform: scale(1.1);
+    }
+
+    .content {
+        padding-top: 100px;
+        padding-left: 40px;
+        margin-right: 200px;
+        color: #fff;
+    }
+
+    .menu-section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+
+    .menu-section h2 {
+        font-size: 2em;
+        color: #bd5e0a;
+        margin-bottom: 10px;
+    }
+
+    .menu-item {
+        display: flex;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        max-width: 800px;
+        color: white;
+    }
+
+    .menu-item img {
+        width: 150px;
+        height: auto;
+        border-radius: 10px;
+        margin-right: 20px;
+        transition: transform 0.3s ease; 
+    }
+
+    .menu-item img:hover {
+        transform: scale(1.1); 
+    }
+
+    footer {
+        font-weight: bold;
+        color: #fff;
+        background-color: #21618c;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+</style>
+<body>
+
+<header>
+    <h1>Menú - Sazón y Tradición</h1>
+    </header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+</nav>
+
+<div class="content">
+    <div class="menu-section">
+        <h1>Entradas</h1>
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSjZQIXdZNLVPciMtes9n4rzS28fvtwT14hg&s" alt="Yuca con chicharrón">
+            <div>
+                <h3>Yuca con Chicharrón 60Lps.</h3>
+                <p>Un delicioso plato de yuca frita, acompañado de chicharrón crujiente y curtido. Perfecto para abrir el apetito.</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="https://www.honduras.com/wp-content/uploads/2020/09/enchiladas-hondure%C3%B1as.jpg" alt="Enchiladas">
+            <div>
+                <h3>Enchiladas 30Lps.</h3>
+                <p>Tortilla frita cubierta con carne, repollo, salsa de tomate y queso. Un clásico hondureño lleno de sabor.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h1>Platos Fuertes</h1>
+        <div class="menu-item">
+            <img src="https://okdiario.com/img/2022/12/14/la-tortilla-en-honduras-se-llama-baleada-1-620x348.jpg" alt="Baleadas">
+            <div>
+                <h3>Baleadas 14Lps.</h3>
+                <p>Una tortilla de harina rellena de frijoles, queso y crema. Puedes agregar huevo, aguacate o carne.</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR55grGI0sQWD6uAhraoLM06xRoy1fi-JGlJA&s" alt="Sopa de Caracol">
+            <div>
+                <h3>Sopa de Caracol 70Lps.</h3>
+                <p>Exótica y reconfortante sopa con trozos de caracol, leche de coco y plátano verde. Un favorito caribeño.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h1>Postres</h1>
+        <div class="menu-item">
+            <img src="https://www.recetashonduras.com/base/stock/Recipe/arroz-con-leche/arroz-con-leche_web.jpg.webp" alt="Arroz con leche">
+            <div>
+                <h3>Arroz con Leche 30Lps.</h3>
+                <p>Un dulce y cremoso arroz cocido con leche y canela. El postre ideal para cerrar la comida.</p>
+            </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2023 Sazón y Tradición. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
+
